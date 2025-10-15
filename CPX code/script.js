@@ -1,5 +1,3 @@
-<<<<<<< Updated upstream
-=======
 // loops.forever(function () {
 //     if (p === 100) {
 //         p = 0;
@@ -43,4 +41,3 @@
 // OLED.drawCircle(10, 10, 10);
 // OLED.showString1("hello, micro:bit!")
 // OLED.showString2("Don't, micro:bit!")
->>>>>>> Stashed changes
