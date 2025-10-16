@@ -40,6 +40,7 @@
 
 // OLED.drawCircle(10, 10, 10);
 // OLED.showString1("hello, micro:bit!")
+<<<<<<< Updated upstream
 // OLED.showString2("Don't, micro:bit!")
 
 OLED.init(128, 64);
@@ -88,3 +89,6 @@ loops.forever(function () {
         light.showAnimation(light.rainbowAnimation, 500)
     }
 })
+=======
+// OLED.showString2("Don't, micro:bit!")
+>>>>>>> Stashed changes
