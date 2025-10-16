@@ -1,0 +1,16 @@
+{
+    "python.languageServer": "Pylance",
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportMissingImports": "none",
+        "reportMissingModuleSource": "none",
+        "reportShadowedImports": "none"
+    },
+    "circuitpythonsync.drivepath": "D:",
+    "circuitpythonsync.cpfullversion": "10.0.1",
+    "python.analysis.extraPaths": [
+        "c:\\Users\\toonv\\AppData\\Roaming\\Code\\User\\globalStorage\\padgettholdings.circuitpythonsync\\stubs\\circuitpython_stubs-10.0.1\\board_definitions\\circuitplayground_express",
+        "C:/Programming Libraries/adafruit-circuitpython/lib",
+        "c:\\Users\\toonv\\AppData\\Roaming\\Code\\User\\globalStorage\\padgettholdings.circuitpythonsync\\stubs\\circuitpython_stubs-10.0.1"
+    ],
+    "circuitpythonsync.cpboardname": "circuitplayground_express"
+}
