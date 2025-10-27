@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+    color: #ffffff;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-height: 100svh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #1E1E1E;
+}
+body div {
+    height: inherit;
+}
+body div > main:first-child {
+    width: 100%;
+    max-width: 2300px;
+    height: 100svh;
+    padding: 50px 200px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.svgs {
+    display: flex;
+}
+
+.button {
+    cursor: pointer;
+}
