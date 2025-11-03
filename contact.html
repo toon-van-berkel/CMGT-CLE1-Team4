@@ -36,38 +36,45 @@
             <!-- Toon: Een section zonder een header is slecht voor je SEO -->
             <!-- Toon: Mischien de contact form naar een bedankt pagina te sturen -->
             <form action="" id="contact-form">
-                <div class="names">
-                    <!-- Toon: Voeg een label en een input in een div zodat het mooi onder elkaar komt te staan. -->
-                    <label for="first-name">Name:</label>
-                    <input type="text" name="first-name" id="first-name" placeholder="Name..." required />
-
-                    <!-- Toon: Voeg een label en een input in een div zodat het mooi onder elkaar komt te staan. -->
-                    <label for="surname">Surname:</label>
-                    <input type="text" name="surname" id="surname" placeholder="Surname..." required />
+                <div class="row-container">
+                    <div class="col-container">
+                        <label for="first-name">Name:</label>
+                        <input type="text" name="first-name" id="first-name" placeholder="Name..." required />
+                    </div>
+                    <div class="col-container">
+                        <label for="surname">Surname:</label>
+                        <input type="text" name="surname" id="surname" placeholder="Surname..." required />
+                    </div>
                 </div>
-                    <!-- Toon: Voeg een label en een input in een div zodat het mooi onder elkaar komt te staan. -->
-                <label for="email">E-mail:</label>
-                <input type="email" id="email" name="email" placeholder="E-mail..." required />
-                <div class="dates">
-                    <!-- Toon: Voeg een label en een input in een div zodat het mooi onder elkaar komt te staan. -->
-                    <label for="birthdate">Birthdate:</label>
-                    <input type="date" id="birthdate" name="birthdate" required />
+                <div class="col-container">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" placeholder="E-mail..." required />
+                </div>
+                <hr>
+                <div class="row-container">
+                    <div class="col-container">
+                        <label for="birthdate">Birthdate:</label>
+                        <input type="date" id="birthdate" name="birthdate" required />
+                    </div>
 
-                    <!-- Toon: Voeg een label en een select in een div zodat het mooi onder elkaar komt te staan. -->
-                    <label for="subject">Subject:</label>
-                    <select id="subject" name="subject" required>
-                        <option value="" disabled selected>Choose a subject</option>
-                        <option value="0">questions</option>
-                        <option value="1">shipping</option>
-                        <option value="2">feedback</option>
-                        <option value="3">other options</option>
-                    </select>
+                    <div class="col-container">
+                        <label for="subject">Subject:</label>
+                        <select id="subject" name="subject" required>
+                            <option value="" disabled selected>Choose a subject</option>
+                            <option value="0">questions</option>
+                            <option value="1">shipping</option>
+                            <option value="2">feedback</option>
+                            <option value="3">other options</option>
+                        </select>
+                    </div>
                 </div>
                 <!-- Toon: Voeg een label en een texterea in een div zodat het mooi onder elkaar komt te staan. -->
-                <label for="question">Your question:</label>
-                <textarea name="questions" id="question" placeholder="question..." required></textarea>
+                <div class="col-container">
+                    <label for="question">Your question:</label>
+                    <textarea name="questions" id="question" placeholder="question..." required></textarea>
+                </div>
 
-                <div class="check">
+                <div class="row-container check">
                     <input type="checkbox" id="verify" name="verify" value="verify" required />
                     <label for="verify">I agree with the terms and services</label>
                 </div>
