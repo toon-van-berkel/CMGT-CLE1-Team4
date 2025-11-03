@@ -4,15 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+    <!-- Toon: Het web logo aanpassen naar het swag logo -->
+    <title>Contact</title> <!-- Toon: Mischien dit aanpassen naar SWAG en dan de desbetreffende pagina -->
+    <!-- Toon: Voor een extra uitdaging kunnen we ook meta tags gaan gebruiken, die komen dan hier -->
     <link rel="stylesheet" href="style/style.css">
 </head>
 
 <body>
     <nav>
+        <!-- Toon: Hier hoeven we geen container te gebruiken -->
         <div class="logo">
             <a href="index.html">
-                <img src="images/swagging.png" alt="our logo" style="height: 32px;" `></a>
+                <!-- Toon: Gebruik geen style atribute in een html element. Duidelijke alt teksten helpen met de gebruiksvriendelijksheid --> 
+                <img src="images/swagging.png" alt="our logo" style="height: 32px;" `>
+            </a>
         </div>
         <div class="nav-links">
             <a href="manual.html">Manual</a>
@@ -30,20 +35,27 @@
 
     <main>
         <section>
+            <!-- Toon: Een section zonder een header is slecht voor je SEO -->
+            <!-- Toon: Mischien de contact form naar een bedankt pagina te sturen -->
             <form action="" id="contact-form">
                 <div class="names">
+                    <!-- Toon: Voeg een label en een input in een div zodat het mooi onder elkaar komt te staan. -->
                     <label for="first-name">Name:</label>
                     <input type="text" name="first-name" id="first-name" placeholder="Name..." required />
 
+                    <!-- Toon: Voeg een label en een input in een div zodat het mooi onder elkaar komt te staan. -->
                     <label for="surname">Surname:</label>
                     <input type="text" name="surname" id="surname" placeholder="Surname..." required />
                 </div>
+                    <!-- Toon: Voeg een label en een input in een div zodat het mooi onder elkaar komt te staan. -->
                 <label for="email">E-mail:</label>
                 <input type="email" id="email" name="email" placeholder="E-mail..." required />
                 <div class="dates">
+                    <!-- Toon: Voeg een label en een input in een div zodat het mooi onder elkaar komt te staan. -->
                     <label for="birthdate">Birthdate:</label>
                     <input type="date" id="birthdate" name="birthdate" required />
 
+                    <!-- Toon: Voeg een label en een select in een div zodat het mooi onder elkaar komt te staan. -->
                     <label for="subject">Subject:</label>
                     <select id="subject" name="subject" required>
                         <option value="" disabled selected>Choose a subject</option>
@@ -53,6 +65,7 @@
                         <option value="3">other options</option>
                     </select>
                 </div>
+                <!-- Toon: Voeg een label en een texterea in een div zodat het mooi onder elkaar komt te staan. -->
                 <label for="question">Your question:</label>
                 <textarea name="questions" id="question" placeholder="question..." required></textarea>
 
@@ -68,7 +81,7 @@
     <footer>
         <div class="footer-container">
             <div class="footer-logo">
-                <img src="images/swagging.png" alt="logo">
+                <img src="images/swagging.png" alt="logo"> <!-- Toon: Duidelijke alt teksten helpen met de gebruiksvriendelijksheid -->
             </div>
             <div class="footer-links">
                 <a href="#">Privacy</a>
@@ -77,9 +90,6 @@
             </div>
         </div>
     </footer>
-
-
-
 </body>
 
 </html>
