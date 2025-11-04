@@ -93,19 +93,19 @@ header > section p {
 }
 
 .swag {
-  background-image: url(../images/pexels-vika-glitter-392079-1094246.jpg);
+  background-image: url(../images/BannerHomepageGrass.jpg);
 }
 
 .manual {
-  background-image: url(../images/bg-man.jpeg);
+  background-image: url(../images/BannerManualPottedPlants.jpg);
 }
 
 .about {
-  background-image: url(../images/about-plants.jpg);
+  background-image: url(../images/BannerAboutPlantWall.jpg);
 }
 
 .contact {
-  background-image: url(../images/plant-growing.jpg);
+  background-image: url(../images/BannerContactGrowingPlant.jpg);
 }
 
 main {
@@ -174,6 +174,20 @@ form input, form textarea, form select {
 form textarea {
   min-width: 100%;
   max-width: 100%;
+}
+form button {
+  padding: 10px 0;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #344e41;
+  border: 1px solid #344e41;
+  border-radius: 5px;
+}
+form button:hover {
+  cursor: pointer;
+  color: #000000;
+  background-color: transparent;
 }
 
 @media (width < 950px) {
